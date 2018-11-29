@@ -2,9 +2,13 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>{{ content }}</title>
+    <title>{{ Daily Anomaly Detection Report }}</title>
 </head>
 <body>
-{{ content }}
+<h1>{{ Daily Anomaly Detection Report }}</h1>
+<p>This report was generated for X use case displaying X blah .</p>
+{% for section in sections %}
+    {{ section }}
+{% endfor %}
 </body>
 </html>
