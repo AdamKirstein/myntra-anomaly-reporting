@@ -14,12 +14,12 @@ title = "Model Report"
 sections = list()
 sections.append(table_section_template.render(
     model="VGG19",
-    dataset="revenue_data.csv",
+    dataset="VGG19_results.csv",
     table="Table goes here."
 ))
 sections.append(table_section_template.render(
     model="MobileNet",
-    dataset="revenue_data.csv",
+    dataset="MobileNet_results.csv",
     table="Table goes here."
 ))
 
