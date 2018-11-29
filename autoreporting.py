@@ -1,7 +1,7 @@
 from jinja2 import FileSystemLoader, Environment
 
 # Content to be published
-content = "Hello, world!"
+content = "Starting small just to make sure that this will work!"
 
 # Configure Jinja and ready the template
 env = Environment(
