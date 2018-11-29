@@ -16,7 +16,7 @@ def main():
     Render a template and write it to file.
     :return:
     """
-    with open("report.html", "w") as f:
+    with open("output/report.html", "w") as f:
         f.write(template.render(content=content))
 
 
