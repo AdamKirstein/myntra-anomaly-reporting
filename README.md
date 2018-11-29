@@ -1,1 +1,1 @@
-# myntra-anomaly-reporting
+# Auto reporting for anomaly detection 
