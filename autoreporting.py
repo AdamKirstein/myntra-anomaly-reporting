@@ -19,7 +19,7 @@ sections.append(table_section_template.render(
 ))
 sections.append(table_section_template.render(
     model="MobileNet",
-    dataset="MobileNet_results.csv",
+    dataset="revenue_data.csv",
     table="Table goes here."
 ))
 
